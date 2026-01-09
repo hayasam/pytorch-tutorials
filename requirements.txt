@@ -22,3 +22,5 @@ scikit-image
 # this is a workaround to the issue.
 pillow==4.1.1
 wget
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
